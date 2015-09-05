@@ -16,6 +16,6 @@ class Installer extends LibraryInstaller
     {
         $this->initializeVendorDir();
 
-        return ($this->vendorDir ? $this->vendorDir . '/_plugins' : '') . $package->getPrettyName();
+        return ($this->vendorDir ? $this->vendorDir . '/_plugins/' : '') . $package->getPrettyName();
     }
 }
