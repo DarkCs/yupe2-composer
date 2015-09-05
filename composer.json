@@ -1,0 +1,15 @@
+{
+    "name": "yupe/yupe2-composer",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "extra": {
+        "class": "yupe\\composer\\PluginInstaller"
+    },
+    "autoload": {
+        "psr-4": {
+            "yupe\\composer\\": ""
+        }
+    }
+}
