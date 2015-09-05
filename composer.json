@@ -5,7 +5,7 @@
         "composer-plugin-api": "^1.0"
     },
     "extra": {
-        "class": "yupe\\composer\\PluginInstaller"
+        "class": "yupe\\composer\\Plugin"
     },
     "autoload": {
         "psr-4": {
